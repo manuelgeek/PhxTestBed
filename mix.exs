@@ -45,7 +45,10 @@ defmodule Toast.MixProject do
       {:plug_cowboy, "~> 2.0"},
       {:phx_izitoast, "~> 0.1.0"},
       {:mpesa, "~> 0.1.0"},
-      {:at_ex, git: "https://github.com/elixirkenya/africastalking-elixir", branch: "refactor-ussd-functionality"}
+      {:at_ex,
+       git: "https://github.com/elixirkenya/africastalking-elixir",
+       branch: "refactor-ussd-functionality"},
+      {:bcrypt_elixir, "~> 2.0"}
     ]
   end
 

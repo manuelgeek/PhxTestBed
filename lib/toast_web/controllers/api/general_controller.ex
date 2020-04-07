@@ -17,10 +17,4 @@ defmodule ToastWeb.Api.GeneralController do
         |> json(%{data: message})
     end
   end
-
-  def at_sms(conn, %{"phoneNumber" => phone, "text" => _text} = params) do
-    IO.inspect(params)
-    {:ok, response} = AtEx.USSD.build_response("My Phone is: " <> phone, :cont)
-    text(conn, response)
-  end
 end

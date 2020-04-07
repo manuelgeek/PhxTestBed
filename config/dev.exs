@@ -83,3 +83,19 @@ config :phoenix, :plug_init_mode, :runtime
 #     mpesa_passkey: "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919",
 #     mpesa_callback_url: "http://91eb0af5.ngrok.io/api/payment/callback"
 #   ]
+config :at_ex,
+  api_key: "9b0c438ca24a4c7d91d8ccf45e10c9d89a8482035d57fa33292e98587a6b6390",
+  content_type: "application/x-www-form-urlencoded",
+  accept: "application/json",
+  auth_token: "",
+  username: "sandbox",
+  # env; production, sandbox
+  endpoint: "sandbox"
+
+config :mpesa,
+  env: "sandbox",
+  consumer_key: "72yw1nun6g1QQPPgOsAObCGSfuimGO7b",
+  consumer_secret: "vRzZiD5RllMLIdLD",
+  mpesa_short_code: "174379",
+  mpesa_passkey: "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919",
+  mpesa_callback_url: "http://ad87cf28.ngrok.io/api/payment/callback"

@@ -19,11 +19,11 @@ defmodule ToastWeb.Router do
     get "/", PageController, :index
   end
 
-#   Other scopes may use custom stacks.
+  #   Other scopes may use custom stacks.
   scope "/api", ToastWeb.Api do
     pipe_through :api
 
     get "/test", GeneralController, :test
-    post "/ussd", GeneralController, :at_sms
+    post "/ussd", UssdController, :at_sms
   end
 end

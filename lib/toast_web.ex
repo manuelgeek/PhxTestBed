@@ -24,6 +24,14 @@ defmodule ToastWeb do
       import Plug.Conn
       import ToastWeb.Gettext
       alias ToastWeb.Router.Helpers, as: Routes
+
+      def translate_error({msg, opts}) do
+        if count = opts[:count] do
+          Gettext.dngettext(ToastWeb.Gettext, "errors", msg, msg, count, opts)
+        else
+          Gettext.dgettext(ToastWeb.Gettext, "errors", msg, opts)
+        end
+      end
     end
   end
 
