@@ -43,7 +43,7 @@ defmodule Toast.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:phx_izitoast, "~> 0.1.0"},
+      {:phx_izitoast, "~> 0.1.1"},
       {:mpesa, "~> 0.1.0"},
       {:at_ex,
        git: "https://github.com/elixirkenya/africastalking-elixir",

@@ -7,6 +7,7 @@ defmodule ToastWeb.Router do
     plug :fetch_flash
     plug :protect_from_forgery
     plug :put_secure_browser_headers
+    plug Toast.Services.ToastPipe
   end
 
   pipeline :api do
@@ -17,6 +18,7 @@ defmodule ToastWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/ind", PageController, :ind
   end
 
   #   Other scopes may use custom stacks.

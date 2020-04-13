@@ -1,4 +1,5 @@
 defmodule ToastWeb.LayoutView do
   use ToastWeb, :view
-  import PhxIzitoast
+  import Toast.Services.Toast
+#   import PhxIzitoast
 end

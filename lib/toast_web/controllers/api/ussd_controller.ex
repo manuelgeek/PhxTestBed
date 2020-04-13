@@ -8,9 +8,9 @@ defmodule ToastWeb.Api.UssdController do
   def at_sms(conn, %{"phoneNumber" => phone, "text" => text} = _params) do
     # IO.inspect(params)
     [level: level, data: data, last: last] = process_request(text)
-    IO.inspect(level)
-    IO.inspect(last)
-    IO.inspect(data)
+    # IO.inspect(level)
+    # IO.inspect(last)
+    # IO.inspect(data)
 
     # check user pass
     if(level >= 1 && String.match?(last, ~r/[0-9]{4}/)) do
