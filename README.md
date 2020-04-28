@@ -1,5 +1,7 @@
+<p align="center"><img src="https://magak.me/assets/images/Geek-logo.png" width="150"></p>
+
 # Phoenix TestBed
-This is a Application to show how to use various Phoenix packages from the Elixir Kenya community
+This is a Application to show how to use various Phoenix packages from My Packages and the Elixir Kenya community
 
 ## Configutation
 To start your Phoenix server:
@@ -10,6 +12,14 @@ To start your Phoenix server:
   * Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+
+# Included packages
+1. PhxIzitoast
+2. AtEx - Africastalking
+    - SMS 
+    - USSD
+3. Mpesa Elixir
+
 
 # Packages 
 ## 1. [PhxIzitoast](https://github.com/manuelgeek/phx_izitoast)
@@ -96,6 +106,26 @@ This is wrapper for Daraja Mpesa STK implementation(Lipa na Mpesa Online)
 ```
 
 ----------
+
+## About Me
+
+[Magak Emmanuel](https://magak.me)
+
+----------
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](#)
+
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source-200x33.png?v=103)](#)
+
+
+Happy coding, Star before Fork 😊💪💯
+
+----------
+
 
 ## Learn more
 
